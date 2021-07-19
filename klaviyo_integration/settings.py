@@ -20,9 +20,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-l8)*l&o$tai)4v9xzr7_$79mm)9rs3lwuwdd18&@ev3%ix)=h4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1:8000', 'klaviyo-api-integration.herokuapp.com']
 
 
 # Application definition

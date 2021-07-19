@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dea2489-f7a3-4497-b5d2-47fd3f1cc3d1" name="Default Changelist" comment="" />
+    <list default="true" id="2dea2489-f7a3-4497-b5d2-47fd3f1cc3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klaviyo_integration/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/klaviyo_integration/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klaviyo_integration/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/klaviyo_integration/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vNw1w3EUNJjdWwH0ppmFISSjvW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,6 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,6 +70,9 @@
       <updated>1626415646320</updated>
       <workItem from="1626415648166" duration="7251000" />
       <workItem from="1626682048682" duration="132000" />
+      <workItem from="1626682341409" duration="4546000" />
+      <workItem from="1626688284296" duration="4548000" />
+      <workItem from="1626693334818" duration="3271000" />
     </task>
     <servers />
   </component>

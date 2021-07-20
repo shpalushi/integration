@@ -1,3 +1,5 @@
+import sys
+
 import requests
 from django.shortcuts import render
 from django.views import View
@@ -21,7 +23,6 @@ class KlaviyoData(View):
         print(request.META['HTTP_HOST'])
 
         # begin: get the user data from request
-
         data = json.loads(request.body.decode("utf-8"))
         customer_title = data.get("customer_title")
         first_name = data.get("first_name")

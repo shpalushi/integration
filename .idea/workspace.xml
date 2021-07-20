@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2dea2489-f7a3-4497-b5d2-47fd3f1cc3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/klaviyo_integration/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/klaviyo_integration/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_data/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <workItem from="1626682048682" duration="132000" />
       <workItem from="1626682341409" duration="4546000" />
       <workItem from="1626688284296" duration="4548000" />
-      <workItem from="1626693334818" duration="4997000" />
+      <workItem from="1626693334818" duration="10054000" />
     </task>
     <servers />
   </component>
@@ -85,5 +85,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_data/views.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

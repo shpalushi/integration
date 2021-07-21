@@ -36,7 +36,15 @@ class KlaviyoData(View):
         institution = data.get("institution")
         work_experience = data.get("work_experience")
         pay_type = data.get("pay_type")
-        course_name = data.get("course_name")
+        course_sku = data.get("course_name")
+        course_name = ""
+        lead_type = ""
+        course_start_date = '01-01-2020'
+
+        if course_sku == "course-v1:MIT+AIL+10-2021":
+            course_name = "MIT AI Leadership"
+            lead_type = "Register"
+            course_start_date = '01-07-2020'
         # end: get the user data from request
 
         # get api key from secrets file
@@ -62,7 +70,10 @@ class KlaviyoData(View):
                 "way_of_contact": way_of_contact,
                 "experience": work_experience,
                 "$country": country,
-                "course_name": course_name
+                "course_sku": course_sku,
+                "course_name": course_name,
+                "lead_type": lead_type,
+                "course_start_date": course_start_date
             }
         }
 

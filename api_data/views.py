@@ -36,6 +36,7 @@ class KlaviyoData(View):
         institution = data.get("institution")
         work_experience = data.get("work_experience")
         pay_type = data.get("pay_type")
+        course_name = data.get("course_name")
         # end: get the user data from request
 
         # get api key from secrets file
@@ -60,7 +61,8 @@ class KlaviyoData(View):
                 "$phone_number": phone,
                 "way_of_contact": way_of_contact,
                 "experience": work_experience,
-                "$country": country
+                "$country": country,
+                "course_name": course_name
             }
         }
 

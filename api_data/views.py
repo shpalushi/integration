@@ -92,9 +92,41 @@ class KlaviyoData(View):
 
         # get api key from secrets file
         dotenv_file = os.path.join(BASE_DIR, ".env")
+
         if os.path.isfile(dotenv_file):
             dotenv.load_dotenv(dotenv_file)
         api_key = os.environ['API_KEY']
+
+        PARAMS = {"api_key":api_key,
+                  "email": email}
+        # Check if user exists in klaviyo
+        get_request = requests.get(url='https://a.klaviyo.com/api/v1/segment/YeA2uH/members', params=PARAMS)
+        get_data = get_request.json()
+        page_size = get_data['page_size']
+        if page_size != 0:
+            id = get_data["data"][0]["person"]["id"]
+            put_params = {
+                "api_key": api_key,
+                "salutation": customer_title,
+                "date_of_birth": date_of_birth,
+                "education": education,
+                "$email": email,
+                "$first_name": first_name,
+                "institution": institution,
+                "$last_name": last_name,
+                "pay_type": pay_type,
+                "$phone_number": phone,
+                "way_of_contact": way_of_contact,
+                "experience": work_experience,
+                "$country": country,
+                "course_sku": course_sku,
+                "course_name": course_name,
+                "lead_type": lead_type,
+                "course_start_date": course_start_date
+            }
+            put_request = requests.put(f'https://a.klaviyo.com/api/v1/person/{id}', params=put_params)
+            if put_request.status_code == 200:
+                return JsonResponse({"success": True}, status=200)
 
         # prepare json body
         json_data_send = {

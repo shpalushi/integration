@@ -60,7 +60,8 @@ def get_course_data(course_sku):
         return ["Register", "Cambridge RegTech", "20 October 2021"]
     elif course_sku == "course-v1:MIT+AIS+10-2021":
         return ["Register", "MIT AI + Data Strategy", "20 October 2021"]
-
+    else:
+        return ["Register", "Registered directly", "No date"]
 
 @method_decorator(csrf_exempt, name="dispatch")
 class KlaviyoData(View):

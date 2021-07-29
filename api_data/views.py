@@ -106,7 +106,7 @@ class KlaviyoData(View):
         get_data = get_request.json()
         page_size = get_data['page_size']
         if page_size != 0:
-            id = get_data["data"][0]["person"]["id"]
+            data_info_id = get_data["data"][0]["person"]["id"]
             put_params = {
                 "api_key": api_key,
                 "salutation": customer_title,
@@ -127,7 +127,7 @@ class KlaviyoData(View):
                 "course_start_date": course_start_date,
                 "company_name": company_name
             }
-            put_request = requests.put(f'https://a.klaviyo.com/api/v1/person/{id}', params=put_params)
+            put_request = requests.put(f'https://a.klaviyo.com/api/v1/person/{data_info_id}', params=put_params)
             if put_request.status_code == 200:
                 return JsonResponse({"success": True}, status=200)
 

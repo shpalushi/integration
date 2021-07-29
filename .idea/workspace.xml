@@ -68,7 +68,8 @@
       <workItem from="1626682341409" duration="4546000" />
       <workItem from="1626688284296" duration="4548000" />
       <workItem from="1626693334818" duration="12149000" />
-      <workItem from="1626861946140" duration="12213000" />
+      <workItem from="1626861946140" duration="13536000" />
+      <workItem from="1627544949758" duration="200000" />
     </task>
     <servers />
   </component>
@@ -90,11 +91,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/api_data/views.py</url>
-          <line>106</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/api_data/views.py</url>
           <line>70</line>

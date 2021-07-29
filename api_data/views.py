@@ -85,6 +85,7 @@ class KlaviyoData(View):
         work_experience = data.get("work_experience")
         pay_type = data.get("pay_type")
         course_sku = data.get("course_name")
+        company_name = data.get("company_name")
         course_name = get_course_data(course_sku)[1]
         lead_type = get_course_data(course_sku)[0]
         course_start_date = get_course_data(course_sku)[2]
@@ -123,7 +124,8 @@ class KlaviyoData(View):
                 "course_sku": course_sku,
                 "course_name": course_name,
                 "lead_type": lead_type,
-                "course_start_date": course_start_date
+                "course_start_date": course_start_date,
+                "company_name": company_name
             }
             put_request = requests.put(f'https://a.klaviyo.com/api/v1/person/{id}', params=put_params)
             if put_request.status_code == 200:
@@ -149,7 +151,8 @@ class KlaviyoData(View):
                 "course_sku": course_sku,
                 "course_name": course_name,
                 "lead_type": lead_type,
-                "course_start_date": course_start_date
+                "course_start_date": course_start_date,
+                "company_name": company_name
             }
         }
 

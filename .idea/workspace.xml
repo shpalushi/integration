@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea2489-f7a3-4497-b5d2-47fd3f1cc3d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api_data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_data/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="klaviyo_integration.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\ShpendPalushi\AppData\Local\Microsoft\WindowsApps\python3.9.exe" />
+      <option name="SDK_HOME" value="C:\Users\ShpendPalushi\PycharmProjects\klaviyo_api_integration\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -69,6 +69,7 @@
       <workItem from="1626693334818" duration="12149000" />
       <workItem from="1626861946140" duration="13536000" />
       <workItem from="1627544949758" duration="809000" />
+      <workItem from="1628284585803" duration="1187000" />
     </task>
     <servers />
   </component>

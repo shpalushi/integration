@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea2489-f7a3-4497-b5d2-47fd3f1cc3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_data/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/django_amazon" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,6 +70,8 @@
       <workItem from="1626693334818" duration="12149000" />
       <workItem from="1626861946140" duration="13536000" />
       <workItem from="1627544949758" duration="809000" />
+      <workItem from="1628286095419" duration="10000" />
+      <workItem from="1628286107001" duration="50000" />
     </task>
     <servers />
   </component>
@@ -92,7 +95,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/api_data/views.py</url>
-          <line>70</line>
+          <line>69</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
